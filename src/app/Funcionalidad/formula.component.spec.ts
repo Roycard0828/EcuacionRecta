@@ -13,12 +13,12 @@ describe('FormulaComponent', () => {
         expect(component.y).toBe(20);
     })
 
-    it('should return 20 if m = 2, x = 5, b = 1', () => {
+    it('should return 11 if m = 2, x = 5, b = 1', () => {
         component.recta(2,5,1);
         expect(component.y).toBe(11);
     })
 
-    it('should return 20 if m = 2, x = 3.6, b = 2.1', () => {
+    it('should return 9.3 if m = 2, x = 3.6, b = 2.1', () => {
         component.recta(2,3.6,2.1);
         expect(component.y).toBe(9.3);
     })
