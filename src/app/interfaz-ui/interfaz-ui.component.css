@@ -1,0 +1,68 @@
+.formula {
+    width: 150px;
+    text-align: center;
+    color: #999;
+    display: inline-flex;
+}
+
+.formula > .formulario{
+    display:flex;
+    align-items:center;
+    margin: 5px;
+}
+
+.contenedor{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:10px;
+    background-color:#C4C4C4 ;
+}
+
+.contenedor > .resultado{
+    display:flex;
+    margin-top: 10px;
+}
+
+
+.resultado {
+    font-size: 2.3em;
+    font-weight: bold;
+    color: red;
+    display: flex;
+    align-items:center;
+}
+
+.resultado > .etqResult{
+    font-size:30px;
+    margin-right: 40px;
+}
+
+.b {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+
+}
+
+.m {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: blue;
+
+}
+
+.x {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: blue;
+
+}
+
+.result-button {
+    display:flex;
+    align-items: center;
+    cursor: pointer;
+    color: blue;
+    font-size: 30px;
+}
