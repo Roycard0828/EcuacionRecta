@@ -4,6 +4,7 @@ export class FormulaComponent{
 
     recta(m: any, x:any, b:any){
         this.y = (m * x) + b;
+        return this.y;
     }
 
 }
